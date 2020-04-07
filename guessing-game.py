@@ -33,9 +33,6 @@ print('- Farther from the number than the previous guess, return "COLDER!"\n')
 #Placeholder
 guesses = []
 
-
-
-
 while True:
     #Player input a number
     guess_num = int(input("Please pick a number: "))
@@ -66,3 +63,4 @@ while True:
         else:
             print('Colder...')
         
+#That's it!
